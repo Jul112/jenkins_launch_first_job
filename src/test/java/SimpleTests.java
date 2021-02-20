@@ -1,15 +1,15 @@
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.fail;
+//import static org.junit.jupiter.api.Assertions.fail;
 
 public class SimpleTests {
     @Test
-    void positiveTest() {
+    void simplePositiveTest() {
         assertTrue(true); //=assertEquals(true, true)
     }
-    @Test
+    /*@Test
     void negativeTest() {
-        fail(); //=assertEquals(true, false)
-    }
+        fail(); //or assertEquals(true, false)
+    }*/
 }
